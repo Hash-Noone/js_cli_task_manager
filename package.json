@@ -1,0 +1,28 @@
+{
+  "name": "taskman",
+  "version": "0.1.0",
+  "description": "A small, dependency-free task manager for the terminal.",
+  "type": "module",
+  "bin": {
+    "task": "./bin/task.js"
+  },
+  "scripts": {
+    "start": "node bin/task.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "cli",
+    "tasks",
+    "todo",
+    "productivity"
+  ],
+  "license": "MIT"
+}
